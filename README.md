@@ -5,6 +5,8 @@ Inspired by subreddit [r/badUIbattles](https://www.reddit.com/r/badUIbattles/), 
 Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own shitty UI!
 
 ---
-1. [Bad UI Phone](./Phone%20Slider%20Selector/BadUIPhone.html)
-   
-![Bad UI Phone Gif](./Phone%20Slider%20Selector/BadUI%20Phone%20Selector.gif)
+
+## 1. Bad Phone Selector
+### - [Live Interactive Example!!!](./Phone%20Slider%20Selector/BadUIPhone.html)
+- [Source Code](https://github.com/GoulartNogueira/BadUI/Phone%20Slider%20Selector/BadUIPhone.html)
+   <a href="./Phone%20Slider%20Selector/BadUIPhone.html" target="_blank">![Bad UI Phone Gif](./Phone%20Slider%20Selector/BadUI%20Phone%20Selector.gif)</a>
