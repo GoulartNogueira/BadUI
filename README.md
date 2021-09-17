@@ -20,6 +20,8 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Date/BadUIDate.html)
 - [Source Code](https://github.com/GoulartNogueira/BadUI/Date/BadUIDate.html)
   
+
+<a href="./Date/BadUIDate.html" target="_blank">![Bad UI Birthday Gif](./Date/Date.gif)</a>
 ---
 
 ### Made with 💩 and 💖 by André Goulart Nogueira:
@@ -27,3 +29,13 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 - [LinkedIn](https://www.linkedin.com/in/andre-goulart/)
 - [GitHub](https://github.com/GoulartNogueira)
 - [StackOverflow AI](https://ai.stackexchange.com/users/49188/andre-goulart)
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GT9SGNE9P7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-GT9SGNE9P7');
+</script>
