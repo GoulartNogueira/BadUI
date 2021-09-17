@@ -1,6 +1,7 @@
 # Bad UI Battle
 ---
 Inspired by subreddit [r/badUIbattles](https://www.reddit.com/r/badUIbattles/), this is a repository for all the bad UI I've seen.
+
 Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own shitty UI!
 
 ---
