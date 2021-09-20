@@ -9,20 +9,26 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 ---
 
 ## 1. Bad Phone Selector
-### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Phone-Slider-Selector/BadUIPhone.html)
 - [Source Code](https://github.com/GoulartNogueira/BadUI/Phone-Slider-Selector/BadUIPhone.html)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Phone-Slider-Selector/BadUIPhone.html)
 
 <a href="./Phone-Slider-Selector/BadUIPhone.html" target="_blank">![Bad UI Phone Gif](./Phone-Slider-Selector/BadUI%20Phone%20Selector.gif)</a>
 
 ---
 
 ## 2. Bad UI Birthday
-### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Date/BadUIDate.html)
 - [Source Code](https://github.com/GoulartNogueira/BadUI/Date/BadUIDate.html)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Date/BadUIDate.html)
   
 
 <a href="./Date/BadUIDate.html" target="_blank">![Bad UI Birthday Gif](./Date/Date.gif)</a>
 ---
+
+## 3. Calendar Hell (by [Jean Dupouy](https://github.com/izeau)) 📅 ️‍🔥
+- [Source Code](https://github.com/izeau/calendar-hell)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/calendar-hell)
+
+<a href="./calendar-hell" target="_blank">![Calendar Hell Video](./calendar-hell/calendar-hell-small.gif)</a>
 
 ### Made with 💩 and 💖 by André Goulart Nogueira:
 

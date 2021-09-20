@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>/r/badUIbattles: Calendar Hell</title>
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+
+  <body>
+    <form class="calendar">
+      <div class="controls">
+        <div class="select"><select name="year"></select></div>
+        <div class="buttons">
+          <button type="button" name="first">
+            <svg viewBox="0 0 24 24">
+              <polyline points="11 17 6 12 11 7"></polyline>
+              <polyline points="18 17 13 12 18 7"></polyline>
+            </svg>
+          </button>
+          <button type="button" name="prev">
+            <svg viewBox="0 0 24 24">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <div class="slider">
+            <input name="month" type="range" min="0" max="11" />
+            <div></div>
+          </div>
+          <button type="button" name="next">
+            <svg viewBox="0 0 24 24">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+          <button type="button" name="last">
+            <svg viewBox="0 0 24 24">
+              <polyline points="13 17 18 12 13 7"></polyline>
+              <polyline points="6 17 11 12 6 7"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="month"></div>
+    </form>
+    <cite>Icons from <a href="https://feathericons.com/" target="_blank">Feather</a></cite>
+    <script src="calendar.js"></script>
+  </body>
+</html>
