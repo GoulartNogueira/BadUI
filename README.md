@@ -45,3 +45,9 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
     
     gtag('config', 'G-GT9SGNE9P7');
 </script>
+
+---
+## 4. Bad Name Selector (by [Mohamed Iyed Mansour](https://github.com/imansour12)
+- [Source code](https://github.com/imansour12/BadUI/bad-name-selector/)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/bad-name-selector)
+<a href="./calendar-hell" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
