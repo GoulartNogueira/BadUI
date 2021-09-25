@@ -8,8 +8,8 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 
 ---
 
-## 1. Bad Phone Selector
-- [Source Code](https://github.com/GoulartNogueira/BadUI/Phone-Slider-Selector/BadUIPhone.html)
+## 1. Phone Slider Selector
+- [Source Code](https://github.com/GoulartNogueira/BadUI/tree/master/Phone-Slider-Selector/BadUIPhone.html)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Phone-Slider-Selector/BadUIPhone.html)
 
 <a href="./Phone-Slider-Selector/BadUIPhone.html" target="_blank">![Bad UI Phone Gif](./Phone-Slider-Selector/BadUI%20Phone%20Selector.gif)</a>
@@ -17,7 +17,7 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 ---
 
 ## 2. Bad UI Birthday
-- [Source Code](https://github.com/GoulartNogueira/BadUI/Date/BadUIDate.html)
+- [Source Code](https://github.com/GoulartNogueira/BadUI/tree/master/Date/BadUIDate.html)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/Date/BadUIDate.html)
   
 
@@ -36,18 +36,20 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 - [GitHub](https://github.com/GoulartNogueira)
 - [StackOverflow AI](https://ai.stackexchange.com/users/49188/andre-goulart)
 
+---
+
+## 4. Bad Name Selector (by [Mohamed Iyed Mansour](https://github.com/imansour12))
+- [Source code](https://github.com/imansour12/BadUI/bad-name-selector/)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/bad-name-selector)
+<a href="./calendar-hell" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
+
+--- 
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GT9SGNE9P7"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
     gtag('config', 'G-GT9SGNE9P7');
 </script>
-
----
-## 4. Bad Name Selector (by [Mohamed Iyed Mansour](https://github.com/imansour12)
-- [Source code](https://github.com/imansour12/BadUI/bad-name-selector/)
-### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/bad-name-selector)
-<a href="./calendar-hell" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
