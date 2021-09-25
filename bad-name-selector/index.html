@@ -1,0 +1,87 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="angry_pepe.ico" type="image/x-icon">  
+		<link rel="stylesheet" href="style.css">
+		<title>Bad Name Selector</title>
+	</head>
+
+	<body>
+		<div class="main">
+		<h1 class="roboto center">Please write your name... (good luck)</h1>
+
+		<p class="center roboto letter" type="button" id = "letter"></p>
+
+		<input type="button" class="center button selectElement" value="<" onclick="GPG_NotFun()">
+
+			<input type="button" class="confirm-button center selectElement" value="Ok" id="confirm-btn">
+
+			<input type="button" value=">" class="center button selectElement" onclick = "GFG_Fun()"  id = "next-btn">
+
+			<div>
+			</div>
+				</div>
+				<div class="result">
+			<p id="full-name" class="roboto textResult" ></p>
+			<button onclick="verifyName()" class="roboto submitBtn">Submit</button>
+			<div>
+				</div>
+
+				<script>
+
+					function GPG_NotFun(){
+						var c = letter.innerHTML;
+						letter.innerHTML = previousCharacter(c);
+
+						var e = previousCharacter(c);
+						console.log(e);
+					}
+
+					var letter = document.getElementById('letter');
+					letter.innerHTML = 'a';
+
+					function previousCharacter(c){
+						return String.fromCharCode(c.charCodeAt(0) - 1);
+					}
+
+					function nextCharacter(c) {
+						return String.fromCharCode(c.charCodeAt(0) + 1);
+					}
+
+					function GFG_Fun() {
+						globalThis.c = letter.innerHTML;
+						letter.innerHTML = nextCharacter(c);
+
+						var d = nextCharacter(c);
+						console.log(d);
+					}
+
+					var confirmedBtn = document.getElementById('confirm-btn');
+
+					var fullName = document.getElementById('full-name');
+
+					//fullName.innerHTML ="testing purposes..."
+
+					confirmedBtn.addEventListener("click", 
+						function()
+						{ 
+
+							screenOutput = fullName. innerHTML + letter.innerHTML
+
+							fullName.innerHTML = screenOutput;
+						}
+						); 
+					
+					function verifyName(){
+						alert("Are you sure your name is " + screenOutput + "?");
+
+					}
+
+				</script>
+			</body>
+			<footer class="footer roboto">Made by <a href="https://github.com/imansour12/">Mohamed Iyed Mansour</a></footer>
+			</html>

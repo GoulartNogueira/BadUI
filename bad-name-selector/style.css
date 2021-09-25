@@ -1,0 +1,133 @@
+
+
+.main {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	   border-radius: 5px 5px 5px 5px;
+	   position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+.main:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+.center {
+	text-align: center;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	left: 50%;
+	display: block;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.confirm-button{
+	background-color: #000000; /* Green */
+	border: none;
+	color: #FFFFFF;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+
+}
+.confirm-button:hover {
+	background-color: #90EE90;
+	transition: 0.5s;
+	color: black;
+}
+
+body {
+	background-color: #F0706A ;
+}
+
+.letter {
+	font-size: 50px;
+}
+
+.button {
+	background-color: #000000; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 8px;
+
+}
+
+.button:hover {
+	background-color: #7B9971;
+	transition: 0.5s;
+}
+
+.selectElement {
+width: 30%;
+}
+
+.footer{
+	 position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            float: right;
+        }
+
+ a { 
+    color: blue;
+}
+.result {
+	background-color: #850101;
+	  width: 50%;
+  margin: 0 auto;
+  	   border-radius: 5px 5px 5px 5px;
+  	   margin-top: 20px;
+
+}
+
+.submitBtn {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-content: center;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+}
+.submitBtn:hover{
+
+}
+
+.textResult {
+	float: right;
+	overflow: hidden;
+	font-size: 20px;
+}
