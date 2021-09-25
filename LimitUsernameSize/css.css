@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+    outline: 0;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+#userNameInput{
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-right: 0;
+}
+
+button{
+    width: 75px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button, input{
+    outline: 0;
+}
+
+#main{
+    margin: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDiv{
+    display: flex;
+    width: 150px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.fallingDiv{
+    position: absolute;
+    height: 20px;
+    font-size: 13.3333px;
+    transform: rotate(0deg);
+}
+
+img{
+    width: 150px;
+    height: 180px;
+    position: relative;
+    margin-top: 20px;
+    left: 100px;
+    z-index: 5;
+}

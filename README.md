@@ -1,10 +1,16 @@
 # Bad UI Battle
 ---
-Inspired by subreddit [r/badUIbattles](https://www.reddit.com/r/badUIbattles/), this is a repository for all the bad UI I've seen.
+
+My UI designs that I created for a Reddit subreddit named Bad UI Battles
+
+https://www.reddit.com/r/badUIbattles/
+Inspired by subreddit [r/badUIbattles](https://www.reddit.com/r/badUIbattles/), where the developers intentionally design bad UI.
+
+This is a repository for all ~~best~~ *(or worst?)* bad-UI I've seen.
 
 That is the [interactive](https://goulartnogueira.github.io/BadUI/) GitHub page for this repository.
 
-Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own *shitty UI*!
+Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own *💩 UI*!
 
 ---
 
@@ -43,7 +49,21 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/bad-name-selector)
 <a href="./calendar-hell" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
 
---- 
+---
+
+## 5. The best way to limit username size (by [Emre Ünlütürk](https://github.com/i01000101))
+- [Source code](https://github.com/i01000101/RedditBadUIBattles/tree/main/LimitUsernameSize)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/LimitUsernameSize)
+<a href="./LimitUsernameSize" target="_blank">![Limit Username Size Video](./LimitUsernameSize/limitUsernameSize.gif)</a>
+
+---
+
+## 6. Scientific Date Picker (by [Emre Ünlütürk](https://github.com/i01000101))
+- [Source code](https://github.com/i01000101/RedditBadUIBattles/tree/main/)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/ScientificDatePicker)
+<a href="./ScientificDatePicker" target="_blank">![Scientific Date Picker Video](./ScientificDatePicker/datePicker.gif)</a>
+
+---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GT9SGNE9P7"></script>
