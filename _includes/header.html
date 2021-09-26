@@ -1,0 +1,20 @@
+<!-- This section handles the automatic population of the navigation bar at the top -->
+<header class="site-header">
+    <nav>
+        <ul>
+        <div class="forceleft">
+        <!-- This is an optional branded logo holder -->
+        <!-- <a class="brand" href="/">
+        <img src="/images/{{ site.info.logo }}" alt="Inc">
+        </a> -->
+        
+        <!-- This section manages the navigation bar-->
+        <a href="{{ site.github.url | prepend: site.baseurl}}/" title="Home">Home</a>
+        </div>
+        <!--Optionally add the name of the site in the top right -->
+        <!-- <div class="forceright">
+        <a href="{{ site.github.url | prepend: site.baseurl}}/" title={{site.title}}>{{site.title}}</a>
+        </div> -->
+        </ul>
+    </nav>
+</header>
