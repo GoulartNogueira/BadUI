@@ -1,14 +1,8 @@
 # Bad UI Battle
----
 
-My UI designs that I created for a Reddit subreddit named Bad UI Battles
+Inspired by [r/badUIbattles](https://www.reddit.com/r/badUIbattles/) (a joke subreddit for intentionally bad UI designs), I created [BadUI](https://goulartnogueira.github.io/BadUI) as an open repository for BadUI's made by me and others.
 
-https://www.reddit.com/r/badUIbattles/
-Inspired by subreddit [r/badUIbattles](https://www.reddit.com/r/badUIbattles/), where the developers intentionally design bad UI.
-
-This is a repository for all ~~best~~ *(or worst?)* bad-UI I've seen.
-
-That is the [interactive](https://goulartnogueira.github.io/BadUI/) GitHub page for this repository.
+This repository contains all ~~best~~ *(or worst?)* bad-UI I've seen.
 
 Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own *💩 UI*!
 
