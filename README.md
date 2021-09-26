@@ -64,12 +64,3 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 <a href="./ScientificDatePicker" target="_blank">![Scientific Date Picker Video](./ScientificDatePicker/datePicker.gif)</a>
 
 ---
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GT9SGNE9P7"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GT9SGNE9P7');
-</script>
