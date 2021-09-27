@@ -47,7 +47,7 @@ Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your ow
 
 ## 5. The best way to limit username size (by [Emre Ünlütürk](https://github.com/i01000101))
 - [Source code](https://github.com/i01000101/RedditBadUIBattles/tree/main/LimitUsernameSize)
-### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/LimitUsernameSize)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/LimitUsernameSize/badDesign)
 <a href="./LimitUsernameSize" target="_blank">![Limit Username Size Video](./LimitUsernameSize/limitUsernameSize.gif)</a>
 
 ---
