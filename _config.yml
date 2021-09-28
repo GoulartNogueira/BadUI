@@ -27,8 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Image:
 logo: /assets/images/Awesome BadUI.png
 
-url: "https://goulartnogueira.github.io/" # the subpath of your site, e.g. /blog
-baseurl: "/BadUI"
+url: "https://goulartnogueira.github.io/BadUI/"
 
 # Build settings
 theme: jekyll-theme-minimal
