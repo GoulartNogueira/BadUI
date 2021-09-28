@@ -11,3 +11,19 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- end custom head snippets -->
+
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:title" content="{% if site.title %}{{ site.title }}{% else %}{{ site.name }}{% endif %}">
+<meta property="og:description" content="{% if site.description %}{{ site.description }}{% else %}{{ site.title }}{% endif %}">
+<!-- logo: /assets/images/Awesome BadUI.png | prepend url -->
+<meta property="og:image" content="{% if site.logo %}{{ site.logo | prepend: site.url }}{% else %}{{ '/assets/images/Awesome BadUI.png' | prepend: site.url }}{% endif %}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://goulartnogueira.github.io/BadUI/">
+<meta property="twitter:title" content="{% if site.title %}{{ site.title }}{% else %}{{ site.name }}{% endif %}">
+<meta property="twitter:description" content="{% if site.description %}{{ site.description }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:image" content="{% if site.logo %}{{ site.logo | prepend: site.url }}{% else %}{{ '/assets/images/Awesome BadUI.png' | prepend: site.url }}{% endif %}">

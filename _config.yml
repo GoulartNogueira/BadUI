@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This repository contains all best (or worst?) bad-UI I've seen.
 # Image:
 logo: /assets/images/Awesome BadUI.png
+og_image: /assets/images/Awesome BadUI.png
 
 url: "https://goulartnogueira.github.io/BadUI/"
 
