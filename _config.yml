@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Inspired by Reddit r/badUIbattles (a joke subreddit for intentionally bad UI designs), I created BadUI as an open repository for BadUI's made by me and others.
   This repository contains all best (or worst?) bad-UI I've seen.
 # Image:
-logo: /assets/Awesome BadUI.png
+logo: /assets/images/Awesome BadUI.png
 
 url: "https://goulartnogueira.github.io/BadUI/" # the subpath of your site, e.g. /blog
 
