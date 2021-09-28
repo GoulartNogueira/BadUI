@@ -4,7 +4,7 @@ Inspired by [r/badUIbattles](https://www.reddit.com/r/badUIbattles/) (a joke sub
 
 This repository contains all ~~best~~ *(or worst?)* bad-UI I've seen.
 
-Please [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own *💩 UI*!
+Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with your own *💩 UI*!
 
 ---
 
