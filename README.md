@@ -66,3 +66,11 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 <a href="./HighLowBirthday" target="_blank">![High Low Birthday](./HighLowBirthday/A_fun_way_to_select_your_birthday_pycos8.gif)</a>
 
 ---
+
+## 8.  (by [Mutti](https://github.com/themutti))
+- [Source code](https://github.com/themutti/fan-controlled-cursor)
+- [Reddit Original Post](https://themutti.github.io/fan-controlled-cursor/)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/FanControlledCursor)
+<a href="./FanControlledCursor" target="_blank">![Fan Controlled Cursor](./FanControlledCursor/demo.gif)</a>
+
+---

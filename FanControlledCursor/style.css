@@ -1,0 +1,77 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#fan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  cursor: grab;
+}
+
+#fan:active {
+  cursor: grabbing;
+}
+
+#cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+}
+
+.keyboard-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 71rem;
+}
+
+#text {
+  display: flex;
+  align-items: center;
+  width: 56rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: gray;
+  color: white;
+  padding: 0 0.6rem;
+  margin: 2.2rem 0;
+  overflow: hidden;
+}
+
+#cursor, #fan, #keyboard {
+  user-select: none;
+}
+
+.key {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 2.2rem;
+  background-color: lightgray;
+  font-size: 1.2rem;
+}
+
+.key.hover {
+  background-color: gray;
+}
+
+.key.wide {
+  width: 9.5rem;
+}
