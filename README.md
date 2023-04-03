@@ -47,7 +47,7 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ## 5. The best way to limit username size (by [Emre Ünlütürk](https://github.com/i01000101))
 - [Source code](https://github.com/i01000101/RedditBadUIBattles/tree/main/LimitUsernameSize)
-### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/LimitUsernameSize/badDesign)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/LimitUsernameSize)
 <a href="./LimitUsernameSize" target="_blank">![Limit Username Size Video](./LimitUsernameSize/limitUsernameSize.gif)</a>
 
 ---
@@ -61,8 +61,8 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ## 7.  (by [Nifty Octopus](https://www.reddit.com/user/NiftyOctopus_/))
 - [Source code](https://codepen.io/NiftyOctopus/pen/rNwRNYp)
-https://www.reddit.com/r/badUIbattles/comments/pycos8/a_fun_way_to_select_your_birthday/
+- [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/pycos8/a_fun_way_to_select_your_birthday/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/HighLowBirthday)
-<a href="./High" target="_blank">![High Low Birthday](./HighLowBirthday/A_fun_way_to_select_your_birthday_pycos8.gif)</a>
+<a href="./HighLowBirthday" target="_blank">![High Low Birthday](./HighLowBirthday/A_fun_way_to_select_your_birthday_pycos8.gif)</a>
 
 ---
