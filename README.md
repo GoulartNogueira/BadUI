@@ -59,7 +59,7 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ---
 
-## 7.  (by [Nifty Octopus](https://www.reddit.com/user/NiftyOctopus_/))
+## 7. High Low Birthday (by [Nifty Octopus](https://www.reddit.com/user/NiftyOctopus_/))
 - [Source code](https://codepen.io/NiftyOctopus/pen/rNwRNYp)
 - [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/pycos8/a_fun_way_to_select_your_birthday/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/HighLowBirthday)
@@ -67,7 +67,7 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ---
 
-## 8.  (by [Mutti](https://github.com/themutti))
+## 8. Fan Controlled Cursor (by [Mutti](https://github.com/themutti))
 - [Source code](https://github.com/themutti/fan-controlled-cursor)
 - [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/ug4cbj/a_cursor_controlled_by_a_fan/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/FanControlledCursor)
@@ -75,7 +75,7 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ---
 
-## 9.  (by [UnmatchedBracket](https://replit.com/@UnmatchedBracket))
+## 9. Tabbled Keyboard (by [UnmatchedBracket](https://replit.com/@UnmatchedBracket))
 - [Source code](https://replit.com/@UnmatchedBracket/tabkeyboard?v=1)
 - [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/12995fm/tabbed_keyboard/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/TabbedKeyboard)
