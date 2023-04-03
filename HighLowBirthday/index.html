@@ -1,0 +1,109 @@
+<html>
+    <body>
+        <h2>Is this your birthday?</h2>
+
+        <div id='dates'>
+        <div id='log-lower' class='log'></div>
+        <div><button id='lower' onclick='lower()'>Earlier</button></div>
+        <div id='date'>Date</div>
+        <div><button id='higher' onclick='higher()'>Later</button></div>
+        <div id='log-higher' class='log'></div>
+        </div>
+
+        <div id='count'>1 Guess</div>
+    </body> 
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          
+          #dates {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          
+          #dates > div {
+            margin: 0 10px;
+          }
+          
+          #date {
+            font-size: 25px;
+          }
+          
+          .log {
+            font-family: 'Courier New';
+            color: gray;
+          }
+    </style>
+    <script>
+        let date = new Date()
+let high = date
+let low  = new Date(0, 0, 1)
+let size = 30
+let n = 1
+
+setDate()
+
+function setDate(dir) {
+  document.getElementById('date').innerText = dateString()
+  
+  const count = n + ' Guess' + (n > 1 ? 'es' : '')
+  document.getElementById('count').innerText = count  
+}
+
+function dateString() {
+  return date.toString().substring(4, 15)
+}
+
+function higher() {
+  low = date
+  update('higher')
+}
+
+function lower() {
+  high = date
+  update('lower')
+}
+
+function update(dir) {
+  logDate(dir)
+  guess()
+  setDate(dir)
+}
+
+function guess() {
+  const delta = high.getTime() - low.getTime()
+  const error = delta * ((Math.random() / 2) - 0.25)
+  const guess = low.getTime() + (delta / 2) + error
+  
+  date = new Date(guess)
+  n++
+  size--
+}
+
+function logDate(id) {
+  const elem = getDateElement(dateString())
+  
+  if(id == 'lower') {
+    document.getElementById('log-higher').append(elem)
+    
+  } else if(id == 'higher') {
+    document.getElementById('log-lower').prepend(elem)
+  }
+}
+
+function getDateElement(date) {
+  let text = document.createTextNode(date)
+  let elem = document.createElement('div')
+  elem.appendChild(text)
+  return elem
+}
+    </script>
+
+</html>

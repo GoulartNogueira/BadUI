@@ -58,3 +58,11 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 <a href="./ScientificDatePicker" target="_blank">![Scientific Date Picker Video](./ScientificDatePicker/datePicker.gif)</a>
 
 ---
+
+## 7.  (by [Nifty Octopus](https://www.reddit.com/user/NiftyOctopus_/))
+- [Source code](https://codepen.io/NiftyOctopus/pen/rNwRNYp)
+https://www.reddit.com/r/badUIbattles/comments/pycos8/a_fun_way_to_select_your_birthday/
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/HighLowBirthday)
+<a href="./High" target="_blank">![High Low Birthday](./HighLowBirthday/A_fun_way_to_select_your_birthday_pycos8.gif)</a>
+
+---
