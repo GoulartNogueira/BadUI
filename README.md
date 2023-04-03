@@ -80,8 +80,6 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 - [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/12995fm/tabbed_keyboard/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/TabbedKeyboard)
 
-https://goulartnogueira.github.io/BadUI/TabbedKeyboard/tabbedKeyboard.mp4
-
 <a href="./TabbedKeyboard" target="_blank">![Tabbed Keyboard](./TabbedKeyboard/tabbedKeyboard.gif)</a>
 
 ---

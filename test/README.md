@@ -81,7 +81,6 @@ https://goulartnogueira.github.io/BadUI/FanControlledCursor/demo.gif
 - [Source code](https://replit.com/@UnmatchedBracket/tabkeyboard?v=1)
 - [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/12995fm/tabbed_keyboard/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/TabbedKeyboard)
-<a href="./TabbedKeyboard" target="_blank">![Tabbed Keyboard](./TabbedKeyboard/tabbedKeyboard.mp4)</a>
-https://goulartnogueira.github.io/BadUI/TabbedKeyboard/tabbedKeyboard.mp4
+<a href="./TabbedKeyboard" target="_blank">![Tabbed Keyboard](./TabbedKeyboard/tabbedKeyboard.gif)</a>
 
 ---
