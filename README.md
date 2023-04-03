@@ -69,8 +69,16 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 
 ## 8.  (by [Mutti](https://github.com/themutti))
 - [Source code](https://github.com/themutti/fan-controlled-cursor)
-- [Reddit Original Post](https://themutti.github.io/fan-controlled-cursor/)
+- [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/ug4cbj/a_cursor_controlled_by_a_fan/)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/FanControlledCursor)
 <a href="./FanControlledCursor" target="_blank">![Fan Controlled Cursor](./FanControlledCursor/demo.gif)</a>
+
+---
+
+## 9.  (by [UnmatchedBracket](https://replit.com/@UnmatchedBracket))
+- [Source code](https://replit.com/@UnmatchedBracket/tabkeyboard?v=1)
+- [Reddit Original Post](https://www.reddit.com/r/badUIbattles/comments/12995fm/tabbed_keyboard/)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/TabbedKeyboard)
+<a href="./TabbedKeyboard" target="_blank">![Tabbed Keyboard](./TabbedKeyboard/tabbedKeyboard.gif)</a>
 
 ---
