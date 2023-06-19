@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+:root{
+    --market-items: 4;
+}
+
+
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #232329;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.center-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 3rem;
+    z-index: 2;
+}
+.login-wrapper > button{
+    color: white;
+    margin-top: 2rem;
+    outline: none;
+    background-color: #232329;
+    border: 1px solid white;
+    outline: none;
+    padding: 1rem;
+}
+.login-wrapper > input{
+    color: white;
+    margin-top: 2rem;
+    outline: none;
+    background-color: #232329;
+    border: 1px solid white;
+    outline: none;
+    padding: 1rem;
+}
+.login-wrapper > button:hover{
+    cursor: pointer;
+}
+
+#catcher{
+    z-index: 3;
+    position: fixed;
+    bottom: 40px;
+    left: 100px;
+    width: 200px;
+    height: 20px;
+    background-color: #ff00d9;
+    border-radius: 60px;
+}
