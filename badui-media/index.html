@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up - Annoyance(TM)</title>
+	<style>
+		@font-face {
+		  font-family: 'Google Sans';
+		  src: local('Google Sans Regular'), local('Google-Sans-Regular'),
+		      url('./fonts/GoogleSans-Regular.woff2') format('woff2'),
+		      url('./fonts/GoogleSans-Regular.woff') format('woff'),
+		      url('./fonts/GoogleSans-Regular.ttf') format('truetype');
+		  font-weight: 400;
+		  font-style: normal;
+		  font-display: swap;
+		}
+		body {
+			font-family: 'Google Sans';
+			margin: 0;
+		}
+		#annoyance {
+			font-size: 2rem;
+			background: linear-gradient(to bottom, rgba(0,0,0,.2) , transparent);
+			width: 100%;
+			padding-top: 1rem;
+		}
+		#annoyance > span:first-child {
+			color: purple;
+			font-weight: bolder;
+		}
+		#annoyance > span:last-child {
+			color: transparent;
+			background: linear-gradient(to right, purple, blue);
+			background-clip: text;
+			-webkit-background-clip: text;
+		}
+		#sup {
+			padding-top: 1em;
+			font-size: 1.75rem;
+		}
+		#media-req {
+			position: fixed;
+			inset: 0;
+			width: 100vw;
+			height: 100vh;
+			z-index: 9999;
+			background: rgba(0, 0, 0, .75);
+			backdrop-filter: blur(.1rem);
+			opacity: 0;
+			transition: opacity 1s;
+		}
+		#media-req.show {
+			opacity: 1;
+		}
+		#wr-inner {
+			position: relative;
+			background: white;
+			border-radius: 1rem;
+			padding: .75rem;
+			min-width: 50vw;
+			min-height: 50vh;
+		}
+		.center {
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.input {
+			display: block;
+			border-radius: 2em;
+			border: 1px solid gray;
+			font-size: 1.33rem;
+			margin: .25rem 0;
+			transition: border-color .25s;
+			outline: none;
+			padding: .1em 1ch;
+			opacity: 1;
+		}
+		.button {
+			display: block;
+			background: #0074e8;
+			color: white;
+			font-size: .85rem;
+			font-weight: lighter;
+			border: none;
+			padding: .5rem 2ch;
+			border-radius: 2em;
+			text-transform: capitalize;
+			cursor: pointer;
+			transition: all .22s;
+		}
+		.button:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 .66em rgba(0, 0, 0, .25) inset, 0 0 .25rem rgba(0, 0, 0, .25);
+		}
+		.input:focus {
+			border-color: purple;
+			border-width: 2px;
+			margin: calc(.25rem - 1px) -1px;
+		}
+		#sus {
+			margin-top: -.25rem;
+			font-size: 2rem;
+			background: linear-gradient(to right, darkred 33%, darkorange 66%);
+			color: transparent;
+			background-clip: text;
+			-webkit-background-clip: text;
+		}
+		#wrapper {
+			position: absolute;
+			inset: 0;
+		}
+		#w-info {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: .25rem;
+		}
+	</style>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			Array.from(document.getElementsByClassName('media-only')).forEach(v => {
+				v.addEventListener('focus', evt => {
+					evt.preventDefault();
+					evt.stopPropagation();
+					evt.target.disabled = true;
+					evt.target.blur();
+					const wrq = document.getElementById('media-req');
+					wrq.style.display = '';
+					setTimeout(() => {
+						wrq.classList.add('show');
+					}, 200);
+				});
+			});
+			document.getElementById('button-start').addEventListener('click', evt => {
+				evt.target.style.display = 'none';
+				const onDone = () => {
+					document.getElementById('listening').textContent = 'Thank you!\nBot protection by Frustrction Inc.\n\nRedirecting in 10 seconds...';
+					setTimeout(() => {
+						document.location = './done.html';
+						document.location.href = './done.html';
+					}, 10000);
+				};
+				document.getElementById('audio').play().then(() => {
+					document.getElementById('listening').style.display = '';
+					
+					const meta = (title, artist) => { 
+						navigator.mediaSession.metadata = new MediaMetadata({
+							title: title, 
+							artist: artist, 
+							artwork: []
+						});
+					}
+
+					navigator.mediaSession.playbackState = "playing";
+					meta('Verification', 'Start entering');
+
+					const done = 'DONE';
+					const reveal = 'SHW';
+					const space = 'SPC';
+					const validSymbols = 'acdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'.split('');
+					validSymbols.unshift(space);
+					validSymbols.unshift(reveal);
+					validSymbols.unshift(done);
+					let selSybmbol = 1;
+					let enteredPassword = '';
+
+					const upd = (i = selSybmbol, reveal = false) => {
+						if(!validSymbols[i]) return;
+						selSybmbol = i;
+						const t = (reveal ? enteredPassword.replace(/\s/g, '_') : enteredPassword.replace(/./g,'*')) || 'Password';
+						const a = (validSymbols[i-1] || '??') + ' ' +
+							(validSymbols[i-1] ? '<- ' : '-- ') + 
+							'[' + (validSymbols[i]) + ']' + 
+							(validSymbols[i+1] ? ' ->' : ' --') + 
+							' ' + (validSymbols[i+1] || '??');
+						meta(t, a);
+					}
+					
+					const actionHandlers = [
+						[['play','pause'], action => {
+							const symbol = validSymbols[selSybmbol];
+							switch (symbol) {
+								case done:
+									meta('Fuck you!', 'Bot protection by Frustration Inc.');
+									onDone();
+									setTimeout(() => {
+										document.getElementById('audio').remove();
+									}, 4000);
+									break;
+								case reveal:
+									upd(selSybmbol, true);
+									break;
+								case space:
+									enteredPassword += ' ';
+									upd();
+									break;
+								default:
+									enteredPassword += symbol;
+									upd();
+									break;
+							}
+						}],
+						['previoustrack', action => {
+							upd(selSybmbol - 1);
+						}],
+						['nexttrack', action => {
+							upd(selSybmbol + 1);
+						}]
+					];
+
+					for (let [actions, handler] of actionHandlers) {
+						if(!Array.isArray(actions)) actions = [actions];
+						for (const action of actions) {
+							try {
+								navigator.mediaSession.setActionHandler(action, () => handler(action));
+							} catch (error) {
+								console.log(`The media session action "${action}" is not supported yet.`);
+							}
+						}
+					}
+					upd();
+				});
+			});
+		})
+	</script>
+</head>
+<body>
+	<div class="center">
+		<div id="annoyance">
+			<span>A</span><span>nnoyance™</span>
+		</div>
+		<div id="sup">
+			Sign up
+		</div>
+		<div>
+			<input type="text" class="input" placeholder="Username" id="login"> 
+			<input type="password" class="media-only input" placeholder="Password" id="pass">
+		</div>
+		<div id="media-req" class="center" style="display: none;">
+			<div id="wr-inner">
+				<div id="sus">Sus activity detected!</div>
+				<div id="wrapper" class="center">
+					<p id="w-info">
+						<!--<img src="images/media.svg" alt="" height="32" width="32">-->
+						<h1>✅</h1>
+						Use the media control widget to enter your password
+					</p>
+					<div class="center">
+						<button type="button" class="button" id="button-start">I AM READY</button>
+						<div id="listening" style="display: none">Start entering</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<audio src="silence.mp3" type="audio/mpeg" loop autoplay preload="auto" id="audio">
+</body>
+</html>
