@@ -41,7 +41,7 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 ## 4. Bad Name Selector (by [Mohamed Iyed Mansour](https://github.com/imansour12))
 - [Source code](https://github.com/GoulartNogueira/BadUI/tree/master/bad-name-selector)
 ### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/bad-name-selector)
-<a href="./calendar-hell" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
+<a href="./bad-name-selector" target="_blank">![Bad Name Selector Video](./bad-name-selector/bad-name-selector-demonstration.gif)</a>
 
 ---
 
