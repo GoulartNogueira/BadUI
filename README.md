@@ -90,3 +90,20 @@ Feel free to [contribute](https://github.com/GoulartNogueira/BadUI/pulls) with y
 <a href="./CatchLogin" target="_blank">![Catch Login](./CatchLogin/catch.gif)</a>
 
 ---
+
+## 11. Media controls (by [griffi-gh](https://github.com/griffi-gh/badui-media/))
+- [Source code](https://github.com/griffi-gh/badui-media)
+### - [Live Interactive Example!!!](https://goulartnogueira.github.io/BadUI/badui-media/)
+
+<table><tr>
+  <td>
+    <a href="./badui-media/" target="_blank">
+      <img alt="Media controls" src="./badui-media/media.gif">
+    </a>
+  </td>
+  <td>
+    <a href="./badui-media/" target="_blank">
+      <img alt="Media controls" src="./badui-media/bonus.jpg">
+    </a>
+  </td>
+</tr></table>
