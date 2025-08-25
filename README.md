@@ -1,4 +1,5 @@
 # Bad UI Battle
+[![starline](https://starlines.qoo.monster/assets/GoulartNogueira/BadUI)](https://github.com/qoomon/starline)
 
 Inspired by [r/badUIbattles](https://www.reddit.com/r/badUIbattles/) (a joke subreddit for intentionally bad UI designs), I created [BadUI](https://goulartnogueira.github.io/BadUI) as an open repository for BadUI's made by me and others.
 
