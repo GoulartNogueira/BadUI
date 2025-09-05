@@ -1,0 +1,112 @@
+<!-- 
+	the idea came over a lunch break
+	the code came from here: https://www.phind.com/agent?cache=cln0d4pgs000pl8083g8ad7jz
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Accessible Credit Card Form</title>
+    <style>
+      .container {
+        width: 350px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group label {
+        display: block;
+        font-weight: bold;
+      }
+      .form-group input {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      .form-group input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Accessible Credit Card Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="cardNumber">Card Number:</label>
+          <input
+            type="password"
+            id="cardNumber"
+            name="cardNumber"
+            placeholder="Enter card number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="cardName">Cardholder Name:</label>
+          <input
+            type="password"
+            id="cardName"
+            name="cardName"
+            placeholder="Enter cardholder name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="expiryDate">Expiry Date:</label>
+          <input
+            type="password"
+            id="expiryDate"
+            name="expiryDate"
+            placeholder="MM/YY"
+          />
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV:</label>
+          <input type="password" id="cvv" name="cvv" placeholder="Enter CVV" />
+        </div>
+        <div class="form-group">
+          <input
+            type="button"
+            value="Validate"
+            onclick="validateCreditCard()"
+          />
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <script>
+      function validateCreditCard() {
+        // Add your credit card validation logic here
+        var cardNumber = document.getElementById("cardNumber").value;
+        var cardName = document.getElementById("cardName").value;
+        var expiryDate = document.getElementById("expiryDate").value;
+        var cvv = document.getElementById("cvv").value;
+
+        var speechText =
+          "Card Number: " +
+          cardNumber +
+          ". Cardholder Name: " +
+          cardName +
+          ". Expiry Date: " +
+          expiryDate +
+          ". CVV: " +
+          cvv +
+          ".";
+        speak(speechText);
+      }
+
+      function speak(text) {
+        var speech = new SpeechSynthesisUtterance();
+        speech.text = text;
+        speechSynthesis.speak(speech);
+      }
+    </script>
+  </body>
+</html>
